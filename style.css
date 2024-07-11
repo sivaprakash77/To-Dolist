@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 50px solid rgb(103, 255, 103);
+    border-left: 10px solid green;
+    border-right: 10px solid green;
+    width: 400px;
+    height: 400px;
+}
+.paracontainer{
+    padding:30px;
+}
+.listcontainer{
+    padding:20px 60px;
+    font-size: 30px;
+}
+.paracontainer input,button{
+    padding: 7px;
+}
+.buttoncontainer{
+    padding-left:30px;
+}
+.buttoncontainer button,.add{
+    padding: 10px;
+    border-radius: 20px;
+}
+.clear,.add{
+    background-color: skyblue;
+    border-style: none;
+}
+.empty{
+    background-color: rgb(169, 90, 90);
+    border-style: none;
+}
+.save{
+    background-color: rgb(107, 249, 107);
+    border-style: none;
+}
